@@ -8,6 +8,7 @@ This application also Utilizes:
 
 ## Requirements
 [NodeJS](https://nodejs.org/)
+[Yarn](https://yarnpkg.com/)
 
 ## Technologies Used
 * [NodeJS](https://nodejs.org/)
