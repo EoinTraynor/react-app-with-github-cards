@@ -1,5 +1,5 @@
 # Base NodeJS image
-FROM node:6
+FROM node
 
 # Clone the repo
 RUN git clone https://github.com/EoinTraynor/react-app-with-github-cards
@@ -8,10 +8,10 @@ RUN git clone https://github.com/EoinTraynor/react-app-with-github-cards
 WORKDIR /react-app-with-github-cards
 
 # Install dependencies
-RUN npm install
+RUN yarn install
 
 # Expose port
 EXPOSE 8080
 
 # Run application
-CMD ["npm", "start"]
+CMD ["yarn", "start"]

@@ -9,6 +9,12 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 
 
 module.exports = {
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    host: '0.0.0.0',
+    port: 9000
+  },
   entry: './client/index.js',
   output: {
     path: path.resolve('dist'),
