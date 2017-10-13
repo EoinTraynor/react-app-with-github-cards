@@ -6,7 +6,7 @@
   "author": "EoinTraynor <eointraynor1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --public 45.55.32.198:9000"
+    "start": "webpack-dev-server --public 165.227.79.209:9000"
   },
   "dependencies": {
     "axios": "^0.16.2",
